@@ -1,9 +1,12 @@
 import React from 'react'
+import UserResults from '../components/users/UserResults'
 
 function Home() {
   return (
+    <>
+      <UserResults/>
+    </>
     
-    <h1 className="text-6xl">Welcome</h1>
   )
 }
 
